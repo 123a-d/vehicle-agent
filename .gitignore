@@ -1,0 +1,86 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Datasets and generated image collections
+dataset_51/
+dataset_midterm_50/
+data/
+datasets/
+raw_data/
+cardate/
+unknown_train_v2/
+unknown_train_v3_hard/
+uploads/
+/期中/
+
+# Model weights, checkpoints, and experiment outputs
+outputs/
+checkpoints/
+models/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# Runtime databases and SQLite sidecars
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Local experiment manifests (may contain absolute paths)
+unknown_source_plan.csv
+unknown_train*_manifest.csv
+unknown_train*_plan.csv
+unknown_train_sources*.txt
+unknown_val_sources.txt
+scripts/stage_01_02_data/dataset_51_manifest.csv
+/scripts/train_midterm_50.py
+/scripts/train_midterm_50_combined.py
+
+# Superseded local Stage 9 draft
+/tool_registry.py
+
+# Local samples and temporary files
+/0009_0030.jpg
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+~$*
+.cache/
+tmp/
+temp/
+
+# IDE and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
